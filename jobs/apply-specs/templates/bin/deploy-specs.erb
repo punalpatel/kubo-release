@@ -57,6 +57,7 @@ create_dashboard_secrets() {
   ${kubectl} create secret generic ${secret_name} \
   --from-file=kubernetes-dashboard-cert=${config_dir}/kubernetes-dashboard/kubernetes-dashboard.crt \
   --from-file=kubernetes-dashboard-key=${config_dir}/kubernetes-dashboard/kubernetes-dashboard.key \
+  --from-file=kubernetes-dashboard-settings=${config_dir}/kubernetes-dashboard/kubernetes-dashboard-metrics.crt \
   -n ${namespace}
 }
 

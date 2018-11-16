@@ -12,6 +12,7 @@ templates:
   config/influxdb/influxdb.key.erb: config/influxdb/influxdb.key
   config/kubernetes-dashboard/kubernetes-dashboard.crt.erb: config/kubernetes-dashboard/kubernetes-dashboard.crt
   config/kubernetes-dashboard/kubernetes-dashboard.key.erb: config/kubernetes-dashboard/kubernetes-dashboard.key
+  config/kubernetes-dashboard/kubernetes-dashboard-metrics.crt.erb: config/kubernetes-dashboard/kubernetes-dashboard-metrics.crt
   specs/addon-spec.yml.erb: specs/addon-spec.yml
   specs/coredns.yml.erb: specs/coredns.yml
   specs/heapster.yml.erb: specs/heapster.yml
