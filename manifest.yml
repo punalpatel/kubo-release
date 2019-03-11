@@ -1,5 +1,5 @@
 dependencies:
-- name: node
+- name: pks-containers
   version: 1.0.0
   source: https://storage.googleapis.com/pks-public/alpine-package-source-v1.0.0.tgz
   source_sha256: 297d04f34e2e8373335332d7751b347b047691114a2982cb73100da3fa188397
