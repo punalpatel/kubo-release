@@ -1,18 +1,18 @@
 dependencies:
 - name: alpine-baselayout
-  version: 1.0.0
+  version: 3.0.4-r0
   source: https://storage.googleapis.com/pks-public/containers/alpine-baselayout.tar.gz
   source_sha256: e7cdb9422166c36843c70c36dd9b01e93a268608004d712eb3870d162f3033c6
 - name: alpine-keys
-  version: 1.0.0
+  version: 2.1-r1
   source: https://storage.googleapis.com/pks-public/containers/alpine-keys.tar.gz
   source_sha256: f29d209b7ce64e1bce5fb85452e1532883ba24216983de86ef2597ed9b2092c7
 - name: apk-tools
-  version: 1.0.0
+  version: 2.7.5-r0
   source: https://storage.googleapis.com/pks-public/containers/apk-tools.tar.gz
   source_sha256: a9b9704c2e037f2816e414554ac1f2935e5ad789999d890d0d8e79658d6d819d
 - name: busybox
-  version: 1.0.0
+  version: 1.26.2-r9
   source: https://storage.googleapis.com/pks-public/containers/busybox.tar.gz
   source_sha256: 2c5be6f835ca90a31775661553118d676bf08edf1e1c1ab283fec850283f5513
 
