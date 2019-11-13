@@ -1,4 +1,6 @@
 # Cloud Foundry Container Runtime
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpunalpatel%2Fkubo-release.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpunalpatel%2Fkubo-release?ref=badge_shield)
+
 A [BOSH](http://bosh.io/) release for [Kubernetes](http://kubernetes.io).  Formerly named **kubo**.
 
 - **Slack**: #cfcr on https://slack.cloudfoundry.org
@@ -161,3 +163,7 @@ K8s 1.11 release kicked off the deprecation timeline for the Heapster component,
 Heapster can be removed by running: 
 
 `kubectl delete deployment -n kube-system heapster`
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fpunalpatel%2Fkubo-release.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fpunalpatel%2Fkubo-release?ref=badge_large)
